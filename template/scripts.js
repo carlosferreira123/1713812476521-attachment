@@ -1,9 +1,15 @@
-const guest = document.querySelector("#guest-1 ")
+const input = document.querySelector("#name")
 
-// Retorna o conteudo  como texto.
-// console.log(guest.textContent)
-// guest.textContent = "Maria"
+// Adicionand a classe.
+//input.classList.add("input-error")
 
-console.log(guest.textContent) // Retorna o conteudo visivel e oculto
-console.log(guest.innerText) // Retoena somente o conteudo visivel
-console.log(guest.innerHTML) // Retorna o HTML como texto
+// Removendo a classe
+//input.classList.remove("input-error")
+
+// Se não tiver a classe adiciona. Se tem, rmeove.
+//input.classList.toggle("input-error")
+
+const button = document.querySelector("button")
+
+// Modificar as propriedades css do elemento.
+button.style.backgroundColor = "red"
