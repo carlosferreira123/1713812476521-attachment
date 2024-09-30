@@ -1,23 +1,9 @@
-const guests = document.querySelector("ul")
+const input = document.querySelector("input")
 
-const newGuest = document.createElement("li")
-newGuest.classList.add("guest")
 
-const guestName = document.createElement("span")
+//input.setAttribute("disabled",true )
 
-guestName.textContent =  "Carlos"
+//input.setAttribute("type", "file")
 
-const guestSurname = document.createElement("span")
-guestSurname.textContent = "Fernandes"
-
-//Adiciona após o último filho
-//newGuest.append(guestName)
-
-// Adiciona antes do primeiro filho
-//newGuest.prepend(guestSurname)
-
-// E mais simples que o append e aceita apenas um argumento
-newGuest.appendChild(guestName)
-
-// guests.append(newGuest)
-guests.append(newGuest)
+// Remover um atributo.
+// input.removeAttribute("id")
